@@ -27,5 +27,8 @@ Pierwsza linia HTTP Response zawsze zawiera Status Code - numerek i opis, np.
 200 OK  
 404 Not Found  
 
+201 Created  
+    - najlepszy kod do potwierdzenia utworzenia jakiegoś zasobu (metodą POST)  
+
 
 
