@@ -36,21 +36,21 @@ HTTP/1.1 200 OK
 
 ## Richardson Maturity Model
 
-#### Level 0
+### Level 0
 inaczej zwany Swamp of POX (gdzie POX = Plain Old XML)
 
 * Jeden URL (endpoint)
 * Wszystkie szczegóły zawarte są w treści requesta
 
-#### Level 1
+### Level 1
 Korzysta z koncepcji Resource URI
 * osobne URI dla każdego zasobu
 
-#### Level 2
+### Level 2
 Korzysta z HTTP Methods
 * używa właściwych metod HTTP, oraz właściwych Status Codes
 
-#### Level 3
+### Level 3
 Implementuje HATEOAS
 * response zawiera linki, które klient może użyć w dalszej kolejności
 
