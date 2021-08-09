@@ -12,5 +12,25 @@ Idziesz do strony głównej i tam widzisz linki do innych stron.
 HATEOAS jest zastosowaniem tej koncepcji dla usług REST.  
 Usługa w responsie dołącza linki do innych powiązanych usług dla danego zasobu.
 
+Na przykład w odpowiedzi na ``GET /accounts/12345 HTTP/1.1 ...`` możemy otrzymać:
 
+```json
+HTTP/1.1 200 OK
+
+{
+    "account": {
+        "account_number": 12345,
+        "balance": {
+            "currency": "usd",
+            "value": 100.00
+        },
+        "links": {
+            "deposits": "/accounts/12345/deposits",
+            "withdrawals": "/accounts/12345/withdrawals",
+            "transfers": "/accounts/12345/transfers",
+            "close": "/accounts/12345/close"
+        }
+    }
+}
+```
 
