@@ -4,8 +4,6 @@ date: 2021-08-05T09:22:21+02:00
 draft: false
 ---
 
-# Adnotacje JAX-RS
-
 ## Ścieżka w URL
 
 ```java
