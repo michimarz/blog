@@ -4,10 +4,46 @@ date: 2021-08-05T09:22:21+02:00
 draft: false
 ---
 
-@Path("/hello")  
+## Adnotacje JAX-RS
 
-@GET  
+### Ścieżka w URL
 
-@Produces(MediaType.TEXT_PLAIN)  
-@Path("/greeting/{name}")  
+```java
+@Path("/hello") 
+
+@Path("/hello/{username}")
+// dostęp do tego parametru username:
+@PathParam("username")
+```
+
+### Metody HTTP
+
+```java
+@GET
+@POST
+@PUT
+@DELETE
+
+@HEAD // auto support
+@OPTIONS // auto support
+@PATCH
+```
+
+### Dostęp do parametrów
+
+```java
+@PathParam
+@QueryParam
+@FormParam
+
+@DefaultValue
+```
+
+## Media Type
+
+```java
+@Produces("text/html")
+@Consumes("{text/plain, text/html}")
+```
+
 
