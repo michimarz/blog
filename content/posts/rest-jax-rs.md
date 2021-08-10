@@ -58,8 +58,8 @@ Level 3 można jeszcze podzielić wg HMM (Hypermedia Maturity Model)
 
 ## Implementacje JAX-RS
 
-JAX-RS - to adnotacje i interfejsy
-Biblioteki implementujące JAX-RS to konkretne klasy implementujące te interfejsy i odczytujące adnotacje z naszego kodu.  
+JAX-RS - to adnotacje i interfejsy  
+Biblioteki implementujące JAX-RS - to konkretne klasy implementujące te interfejsy i odczytujące adnotacje z naszego kodu.  
 
 Popularne implementacje:
 * Jersey (Eclipse Jersey) - referencyjna, od Oracle
