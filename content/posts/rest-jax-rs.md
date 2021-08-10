@@ -39,8 +39,8 @@ HTTP/1.1 200 OK
 ### Level 0
 inaczej zwany Swamp of POX (gdzie POX = Plain Old XML)
 
-* Jeden URL (endpoint)
-* Wszystkie szczegóły zawarte są w treści requesta
+* jeden URL (endpoint)
+* wszystkie informacje zawarte są w treści requesta
 
 ### Level 1
 Korzysta z koncepcji Resource URI
