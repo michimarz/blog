@@ -56,6 +56,18 @@ Implementuje HATEOAS
 
 Level 3 można jeszcze podzielić wg HMM (Hypermedia Maturity Model)
 
-<!-- TODO -->
+## Implementacje JAX-RS
+
+JAX-RS - to adnotacje i interfejsy
+Biblioteki implementujące JAX-RS to konkretne klasy implementujące te interfejsy i odczytujące adnotacje z naszego kodu.  
+
+Popularne implementacje:
+* Jersey (Eclipse Jersey) - referencyjna, od Oracle
+* RESTEasy - od JBoss/RedHat  
+
+Biblioteki mozna podmieniać, poniewaz implementują to samo API (JAX-RS).  
+
+Wdrazamy po prostu wrzucając do serwera aplikacyjnego (np. Tomcata) nasz kod wraz z odpowiednią biblioteką implementującą JAX-RS. 
+
 
 
