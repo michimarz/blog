@@ -4,9 +4,10 @@ date: 2021-08-17T11:25:59+02:00
 draft: false
 ---
 
-# Mac OS / Linux
+## Mac OS / Linux
 
-in ~/.zshrc for zsh 
+### Changing JVM version 
+Add aliases in ~/.zshrc for zsh  
 or in ~/.bash_profile for bash:
 
 ```sh
@@ -16,7 +17,9 @@ alias j14 = 'export JAVA_HOME=$(/usr/libexec/java_home -v 14)'
 alias j16 = 'export JAVA_HOME=$(/usr/libexec/java_home -v 16)'
 ```
 
-List of all JVMs installed:
+### Listing all JVMs installed
+
+List all JVMs installed:
 ```sh
 % /usr/libexec/java_home -V
 ```
