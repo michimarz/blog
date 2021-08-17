@@ -6,7 +6,39 @@
     <description>Recent content in Posts on Marz Dev Log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 03 Aug 2021 13:57:11 +0200</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 05 Aug 2021 09:42:38 +0200</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HTTP Request/Response</title>
+      <link>/posts/http-request-response/</link>
+      <pubDate>Thu, 05 Aug 2021 09:42:38 +0200</pubDate>
+      
+      <guid>/posts/http-request-response/</guid>
+      <description>HTTP Request Metody: GET
+POST
+PUT
+DELETE
+HEAD
+CONNECT
+OPTIONS TRACE
+PATCH
+RFC 7231
+RFC 5789 (PATCH method)
+HTTP Response Pierwsza linia HTTP Response zawsze zawiera Status Code - numerek i opis, np.
+200 OK
+404 Not Found
+201 Created
+- najlepszy kod do potwierdzenia utworzenia jakiegoś zasobu (metodą POST)</description>
+    </item>
+    
+    <item>
+      <title>Quarkus JAX-RS</title>
+      <link>/posts/quarkus-jax-rs/</link>
+      <pubDate>Thu, 05 Aug 2021 09:22:21 +0200</pubDate>
+      
+      <guid>/posts/quarkus-jax-rs/</guid>
+      <description>Ścieżka w URL @Path(&amp;#34;/hello&amp;#34;) @Path(&amp;#34;/hello/{username}&amp;#34;) // dostęp do tego parametru username: @PathParam(&amp;#34;username&amp;#34;) Metody HTTP @GET @POST @PUT @DELETE @HEAD // auto support @OPTIONS // auto support @PATCH Dostęp do parametrów @PathParam @QueryParam @FormParam @DefaultValue Media Type @Produces(&amp;#34;text/html&amp;#34;) @Consumes(&amp;#34;{text/plain, text/html}&amp;#34;) </description>
+    </item>
+    
     <item>
       <title>Hugo Netlify</title>
       <link>/posts/hugo-netlify/</link>

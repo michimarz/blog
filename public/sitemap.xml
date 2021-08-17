@@ -2,13 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/posts/hugo-netlify/</loc>
-    <lastmod>2021-08-03T13:57:11+02:00</lastmod>
+    <loc>/posts/http-request-response/</loc>
+    <lastmod>2021-08-05T09:42:38+02:00</lastmod>
   </url><url>
     <loc>/</loc>
-    <lastmod>2021-08-03T13:57:11+02:00</lastmod>
+    <lastmod>2021-08-05T09:42:38+02:00</lastmod>
   </url><url>
     <loc>/posts/</loc>
+    <lastmod>2021-08-05T09:42:38+02:00</lastmod>
+  </url><url>
+    <loc>/posts/quarkus-jax-rs/</loc>
+    <lastmod>2021-08-05T09:22:21+02:00</lastmod>
+  </url><url>
+    <loc>/posts/hugo-netlify/</loc>
     <lastmod>2021-08-03T13:57:11+02:00</lastmod>
   </url><url>
     <loc>/categories/</loc>
