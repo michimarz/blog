@@ -9,3 +9,15 @@ From now on let's go with *asciidoc* instead of markdown.
 
 http://asciidoc.org[Asciidoc]
 http://asciidoctor.org[Asciidoctor]
+
+=== Adding asciidoc support to Netlify
+
+Created file named Gemfile in blog's main directory.
+
+.Gemfile contents
+[source,ruby]
+----
+source 'https://rubygems.org'
+gem 'asciidoctor'
+----
+
