@@ -7,5 +7,5 @@ draft: false
 == Switching to Asciidoc
 From now on let's go with *asciidoc* instead of markdown.
 
-http://asciidoc.org [Asciidoc]
-http://asciidoctor.org [Asciidoctor]
+http://asciidoc.org[Asciidoc]
+http://asciidoctor.org[Asciidoctor]
