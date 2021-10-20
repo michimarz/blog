@@ -1,4 +1,8 @@
-baseURL = ""
+baseURL = "https://michimarz.netlify.app"
 languageCode = "en-us"
 title = "Marz Dev Notes"
 theme = "cactus"
+
+[params]
+
+  colortheme = "dark"
